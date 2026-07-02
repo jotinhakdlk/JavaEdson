@@ -1,4 +1,4 @@
-public class Conta10{
+public class ContaScanner{
     double saldo = 500.0;
 
     double verificarSaldo(){
@@ -8,9 +8,9 @@ public class Conta10{
     void sacar(double valor){
         if(valor <= saldo){
             saldo -= valor;
-            System.out.println("Saque de R$" + valor + "Realizado com sucesso.");
+            System.out.println("Saque de R$" + valor + " realizado com sucesso.");
         }else{
             System.out.println("Saldo insuficiente para o saque de R$" + valor);
-        }
+        };
     };
 };
